@@ -56,7 +56,39 @@ ominous laugh and a musical theme, Camille Saint-Saëns' Le Rouet d'Omphale ("Om
 **Back**<br>
 ![DSC01426-600.jpeg](img/DSC01400-600.jpeg)<br>
 <br>
-**The Shadow Speaks, program listings in lower center.**<br>
+**The Shadow Speaks, program listings in lower center**<br>
 Test runs and fragments lower right dated 2/29/72, 6/13/72, 6/19/72, 6/30/72, 1/16/73.<br>
 Human for scale.<br>
 ![DSC01374-600.jpeg](img/DSC01374-600.jpeg)<br>
+<br>
+**ALGOL program listings dated 2/29/72 on blank paper (top) and 4/13/71 on standard lined paper**<br>
+![DSC01455-600.jpeg](img/DSC01455-600.jpeg)<br>
+<br>
+**Photo of pages 9-10 of the Scientific Software Corporation, Second Annual Report, Feb 1, 1970 - Jan 31,1971**<br>
+Leftmost and bottom right pictures show the B5500 operating console “The SPO”. *My station*, where I managed the mainframe.<br>
+Top right (left) is William Hinkle founder of Keyvest, with an innovative Trust Accounting System, that I worked for in the late 70s.<br>
+Center right are the B5500 tape drives with the line printer in background.<br>
+(I was given a few shares of SSC stock due to a wage and price freeze along with Nixon closing of the gold window due to the
+costs of the Vietnam war.)<br>
+![DSC01477-600.jpeg](img/DSC01477-600.jpeg)<br>
+<br>
+**Closeup**<br>
+Totally posed. Every one of these gentlemen were skilled programmer / analysts and lived in cubicles or offices and I
+tended to the machine. Bottom right picture of the console just showed input commands and MCP (Master Control Program) output
+and nobody did that. Curtained window in back opened into the Conference room. They would open the curtains to show off the
+machine to clients. Plus ça change, plus c'est la même chose. At 20 years old and a bit scruffy I probably was not photogenic
+enough for the Annual Report.<br>
+![DSC01478-600.jpeg](img/DSC01478-600.jpeg)<br>
+<br>
+**B5500 Line Printer in back**<br>
+Printer electronics box on right about 4’x3’x3’ (HWD) and the
+box on the left similar in size was the printer mechanics. Bottom held a box of pin
+fed paper (~1400 pages), above that a spinning character drum, huge ribbon,
+tractor feed with multiple adjustment knobs and levers, a special punched paper tape
+to control vertical tabbing and 132 separate hammers - one for each column. Top of
+printer was a heavily sound padded lid and an illuminated window showing the action.
+Paper exited the back to a mechanical stacker. With the lid up it let out an earsplitting banshee scream.
+
+Fellow shown was a very innovative PA that owned a filling station and garage in a former life.<br>
+![DSC01479-600.jpeg](img/DSC01479-600.jpeg)<br>
+<br>
