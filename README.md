@@ -1,4 +1,4 @@
-# The Shadow Speaks Project - Vietnam War Draft Lottery Analysis
+# The Shadow Speaks Project<br>Vietnam War Draft Lottery Analysis
 
 March 20, 2025<br>
 Commerce City, Colorado<br>
@@ -18,8 +18,8 @@ programming fundamentals. This continued after graduation.
 In late 1969 a recruiter from a company called “Scientific Software Corporation” (SSC) came calling looking for a computer operator
 on their Burroughs B5500 mainframe. A seminal moment in my career and good for the company as well.
 
-[https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College](https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College)
-[https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500](https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500)
+[https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College](https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College)<br>
+[https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500](https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500)<br>
 <br>
 SSC mainly did computer modeling and accounting services for oil companies. Very scientific. Place was loaded with PhDs.
 Physicists, math wizards, programmers and I was a lowly computer operator slaving away in the engine room. It was glorious.
@@ -37,8 +37,26 @@ resulting, accidental, printout stretching nearly 3 1/2 pages of 14 7/8 x 11” 
 "The Shadow Speaks". It has been on my office wall at work and home for over 50 years.
 <br>
 
-**The Shadow Speaks [1972] - E. Karlo - 38” x 16.5”, Burroughs B5500, ALGOL 60.**<br>
+**The Shadow Speaks [1972] - E. Karlo - 38” x 16.5”, Burroughs B5500, ALGOL 60**<br>
 Line printer, 3+ pages of pin fed computer paper.<br>
 Printout of alphanumeric characters, 214 lines x 120 columns, rotated 90 degrees counterclockwise.<br>
 Frame is pine molding with black enamel 'piano finish’ symbolic of the black border newspapers put around obituaries.<br>
 ![DSC01398-600.jpeg](img/DSC01398-600.jpeg)<br>
+<br>
+**Close up of lower center engraved title plate**<br>
+Made at an engraving kiosk in the Cinderella City Mall near the fountain. Meant to be similar to observed military uniform name badges.<br>
+[https://en.wikipedia.org/wiki/Cinderella_City](https://en.wikipedia.org/wiki/Cinderella_City)<br>
+Title is a play on the intro to the 1930s radio program “The Shadow”.<br>
+[https://en.wikipedia.org/wiki/The_Shadow](https://en.wikipedia.org/wiki/The_Shadow)<br>
+The introductory line from the radio adaptation of The Shadow – "Who knows what evil lurks in the hearts of men? The Shadow
+knows!" – spoken by actor Frank Readick, has earned a place in the American idiom. These words were accompanied by an
+ominous laugh and a musical theme, Camille Saint-Saëns' Le Rouet d'Omphale ("Omphale's Spinning Wheel," composed in 1872).<br>
+![DSC01426-600.jpeg](img/DSC01426-600.jpeg)<br>
+<br>
+**Back**<br>
+![DSC01426-600.jpeg](img/DSC01400-600.jpeg)<br>
+<br>
+**The Shadow Speaks, program listings in lower center.**<br>
+Test runs and fragments lower right dated 2/29/72, 6/13/72, 6/19/72, 6/30/72, 1/16/73.<br>
+Human for scale.<br>
+![DSC01374-600.jpeg](img/DSC01374-600.jpeg)<br>
