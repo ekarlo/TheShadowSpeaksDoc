@@ -65,18 +65,27 @@ Human for scale.<br>
 ![DSC01455-600.jpeg](img/DSC01455-600.jpeg)<br>
 <br>
 **Photo of pages 9-10 of the Scientific Software Corporation, Second Annual Report, Feb 1, 1970 - Jan 31,1971**<br>
-Leftmost and bottom right pictures show the B5500 operating console “The SPO”. *My station*, where I managed the mainframe.<br>
-Top right (left) is William Hinkle founder of Keyvest, with an innovative Trust Accounting System, that I worked for in the late 70s.<br>
-Center right are the B5500 tape drives with the line printer in background.<br>
+Leftmost and bottom right pictures show the B5500 operating console “The SPO”. *My station*, where I managed the mainframe.
+
+Top right (left) is William Hinkle founder of Keyvest, with an innovative Trust Accounting System, that I worked for in the late 70s.
+
+Center right are the B5500 tape drives with the line printer in background.
+
 (I was given a few shares of SSC stock due to a wage and price freeze along with Nixon closing of the gold window due to the
-costs of the Vietnam war.)<br>
+costs of the Vietnam war. Sold decades later to finance an Internet adventure for $248.)<br>
 ![DSC01477-600.jpeg](img/DSC01477-600.jpeg)<br>
 <br>
 **Closeup**<br>
 Totally posed. Every one of these gentlemen were skilled programmer / analysts and lived in cubicles or offices and I
-tended to the machine. Bottom right picture of the console just showed input commands and MCP (Master Control Program) output
-and nobody did that. Curtained window in back opened into the Conference room. They would open the curtains to show off the
-machine to clients. Plus ça change, plus c'est la même chose. At 20 years old and a bit scruffy I probably was not photogenic
+tended to the machine.
+
+Bottom right picture of the console just showed input commands and MCP (Master Control Program) output
+and nobody did that.
+
+Curtained window in back opened into the Conference room. They would open the curtains to show off the
+machine to clients. Plus ça change, plus c'est la même chose.
+
+At 20 years old and a bit scruffy I probably was not photogenic
 enough for the Annual Report.<br>
 ![DSC01478-600.jpeg](img/DSC01478-600.jpeg)<br>
 <br>
