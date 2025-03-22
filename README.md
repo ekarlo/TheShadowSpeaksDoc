@@ -1,4 +1,4 @@
-# The Shadow Speaks Project<br>Vietnam War Draft Lottery Analysis
+# The Shadow Speaks Project<br>Vietnam War Draft Lottery Analysis (DRAFT)
 
 March 20, 2025<br>
 Commerce City, Colorado<br>
@@ -36,8 +36,8 @@ poor little ALGOL program did its best to make a contour map out of random numbe
 resulting, accidental, printout stretching nearly 3 1/2 pages of 14 7/8 x 11” computer paper was so striking I framed it and called it
 "The Shadow Speaks". It has been on my office wall at work and home for over 50 years.
 <br>
----
-
+<br>
+### Historical - "TheShadow Speaks" [1972]
 **"The Shadow Speaks" [1972] - E. Karlo - 38” x 16.5”, Burroughs B5500, ALGOL 60**<br>
 Line printer, 3+ pages of pin fed computer paper.<br>
 Printout of alphanumeric characters, 214 lines x 120 columns, rotated 90 degrees counterclockwise.<br>
@@ -101,8 +101,9 @@ Paper exited the back to a mechanical stacker. With the lid up it let out an ear
 
 Fellow shown was a very innovative PA that owned a filling station and garage in a former life.<br>
 ![DSC01479-600.jpeg](img/DSC01479-600.jpeg)<br>
----
-
+<br>
+<br>
+### Historical - "Shadow[70..73]" [1990]
 **"Shadow70, Shadow71, Shadow72, Shadow73]" [1990] - ACM SIGGRAPH Gallery Showing**<br>
 In May of 1990 the local Denver/Boulder chapter of ACM SIGGRAPH (Association for Computing Machinery - Special Interest
 Group on Computer Graphics and Interactive Techniques) held a computer art show in a downtown Denver gallery. I reprised the
@@ -176,8 +177,9 @@ Manual (9” x 12” for size reference). Stack of used ribbons.<br>
 <br>
 **Software and files where archived on Amiga format floppy disks**<br>
 ![DSC01437-600.jpeg](img/DSC01437-600.jpeg)<br>
----
-
+<br>
+<br>
+### Current NFT - "Vietnam War Draft Lottery 2022" [2025]
 **"Vietnam War Draft Lottery 2022" [2025]**<br>
 In October 2022 I suddenly decided to recreate the 1990 displays in the form af an NFT PNG image.
 
@@ -197,10 +199,10 @@ Floppy drive, 1 of 2 purchased as being “New in original shrink wrapped box”
 Recovery process worked without a hitch.<br>
 ![IMG_0687-600.jpeg](img/IMG_0687-600.jpeg)<br>
 <br>
----
---- todo
----
----
+<br>
+**ToDo**
+<br>
+<br>
 **MatrixPrinter output image from test module ShadowNFTTrustButVerify.java**<br>
 Shows implementation of all matrix characters and various applied font effects.<br>
 Letter Quality uses system font rather than built in matrix font.<br>
@@ -234,11 +236,11 @@ Significant and interesting because …<br>
 - Current chatter about current wars (Ukraine et al) and need for resumption of draft.
 - MatrixPrinter code might be a good open source project or associated / included with the NFT in some way. Retro rules!
 Offering includes:<br>
-
----
---- todo
----
----
+<br>
+<br>
+**ToDo**
+<br>
+<br>
 
 Edward E Karlo<br>
 ekarlo@ysystems.com<br>
