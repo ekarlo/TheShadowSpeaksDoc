@@ -9,7 +9,10 @@ I have created a new entry for the NFT market. I believe it is most interesting 
 describe a complex and abstract story. I call it an A2B-NFT (Art / Asset Backed-NFT) as it is an NFT with historical physical art,
 documents and computer hard and soft wares. Perhaps there are already names for such as this.
 This is a draft ‘Prospectus’ for eventual minting and marketing of the A2B-NFT.
+<br>
+<br>
 
+### Historical - "TheShadow Speaks" [1972]
 **"The Shadow Speaks" [1972] Overview**<br>
 In high school (66-68) my favorite classes were science, math and especially radio and electronics. During this time I also attended
 the Emily Griffith Opportunity School in Downtown Denver taking courses in electricity, general electronics, computer circuits and
@@ -36,8 +39,7 @@ poor little ALGOL program did its best to make a contour map out of random numbe
 resulting, accidental, printout stretching nearly 3 1/2 pages of 14 7/8 x 11” computer paper was so striking I framed it and called it
 "The Shadow Speaks". It has been on my office wall at work and home for over 50 years.
 <br>
-<br>
-### Historical - "TheShadow Speaks" [1972]
+
 **"The Shadow Speaks" [1972] - E. Karlo - 38” x 16.5”, Burroughs B5500, ALGOL 60**<br>
 Line printer, 3+ pages of pin fed computer paper.<br>
 Printout of alphanumeric characters, 214 lines x 120 columns, rotated 90 degrees counterclockwise.<br>
@@ -111,7 +113,7 @@ Group on Computer Graphics and Interactive Techniques) held a computer art show 
 Denver Rocky Mountain Chapter of the ACM for three years around this time as well as a member of SIGGRAPH.)
 The display consisted of The Shadow Speaks, Shadow[70..73] and a descriptive placard.
 
-Announcement of Second Annual Computer Graphics Art Show. First annual announcement on right.<br>
+**Announcement of Second Annual Computer Graphics Art Show. First annual announcement on right**<br>
 ![DSC01454-600.jpeg](img/DSC01454-600.jpeg)<br>
 <br>
 **Shadow70 and documentation booklet**<br>
@@ -387,14 +389,15 @@ TheShadowSpeaksNFT/src
 
 Word count: 13,051 lines, 37,814 words, 413,056 characters
 ```
+<br>
 
-**Custom metadata added to PNG image**
-The PNG image file format is described in the Wikipedia article [https://en.wikipedia.org/wiki/PNG](https://en.wikipedia.org/wiki/PNG)<br>
+**PNG Image Metadata**
+The PNG image file format is described in the Wikipedia article:<br>
+[https://en.wikipedia.org/wiki/PNG](https://en.wikipedia.org/wiki/PNG)<br>
 
 The image consists of various “chunks” of metadata (image characteristics) and image data.<br>
 
-**"Ancillary chunks" section from Wikipedia article**
-
+**"Ancillary chunks" section from Wikipedia article:**<br>
 Other image attributes that can be stored in PNG files include gamma values, background color, and textual metadatainformation. PNG also supports color management through the inclusion of ICC color profiles.\{21\]<br>
 - bKGD gives the default background color. It is intended for use when there is no better choice available, such as in standalone image viewers (but not web browsers; see below for more details).<br>
 - cHRM gives the chromaticity coordinates of the display primaries and white point.<br>
@@ -417,16 +420,58 @@ Other image attributes that can be stored in PNG files include gamma values, b
 The lowercase first letter in these chunks indicates that they are not needed for the PNG specification. The lowercase last letter in some chunks indicates that they are safe to copy, even if the application concerned does not understand them.<br>
 
 By default the image contains an IHDR chunk sufficient to display the image.<br>
+<br>
 
-Additional metadata chunks that might be useful in an NFT image are:<br>
-dSIG - not implemented<br>
-iTXt - not implemented<br>
-tEXt - two sample key-value pairs created<br>
-tIME - sample created with current UTC time<br>
-zTXt - key-value pair created with entire zipped Eclipse project<br>
+**Metadata added to NFT image:**
+A number of metadata chunks are potentially useful in a PNG NFT image and some are implemented:<br>
+- dSIG - digital signature, not currently used<br>
+- iTXt - encoded text, not currently used<br>
+- tEXt - key-value pairs - LaunchParms, Artist, Random UUID, UTCTimeNow<br>
+- tIME - values same as UTCTimeNow<br>
+- zTXt - key-value pair - entire zipped Eclipse Java Project<br>
 
 *Note: The zTXt chunk is a novel feature in that the NFT image contains the code needed to create the image and extract the metadata.*
 
+**Sample log output below (created during image generation)**
+
+```
+ImaginalDescriptor ===> Listing Image Metadata,InputFileNameRaw=[test/tst-ShadowNFT-1_10.png],filesize=[4011674]...
+node,name=[javax_imageio_png_1.0],type=[1],value=[null],childcnt=[4],attrcnt=[0]
+  node,name=[IHDR],type=[1],value=[null],childcnt=[0],attrcnt=[7]
+    attr3,name=[width],type=[2],value=[6318]
+    attr3,name=[height],type=[2],value=[11448]
+    attr3,name=[bitDepth],type=[2],value=[8]
+    attr3,name=[colorType],type=[2],value=[RGBAlpha]
+    attr3,name=[compressionMethod],type=[2],value=[deflate]
+    attr3,name=[filterMethod],type=[2],value=[adaptive]
+    attr3,name=[interlaceMethod],type=[2],value=[none]
+  node,name=[tEXt],type=[1],value=[null],childcnt=[4],attrcnt=[0]
+    node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
+      attr2,name=[keyword],type=[2],value=[ShadowNFT:LaunchParms]
+      attr2,name=[value],type=[2],value=[action=ShadowNFT,rotate=(true,-1.570796 rad,-90.000000 deg,[pi(-1/2)]),scale=(true,X 0.100000,Y 0.100000,[1/10,1/10]),OutputFileName=[test/tst-ShadowNFT-1_10.png]]
+    node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
+      attr2,name=[keyword],type=[2],value=[ShadowNFT:Artist]
+      attr2,name=[value],type=[2],value=[ekarlo]
+    node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
+      attr2,name=[keyword],type=[2],value=[ShadowNFT:UUID]
+      attr2,name=[value],type=[2],value=[9ebce15c-237d-4631-8124-8bfd995b9b4f]
+    node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
+      attr2,name=[keyword],type=[2],value=[ShadowNFT:UTCTimeNow]
+      attr2,name=[value],type=[2],value=[2025-03-23T14:38:54.795521600Z]
+  node,name=[tIME],type=[1],value=[null],childcnt=[0],attrcnt=[6]
+    attr2,name=[year],type=[2],value=[2025]
+    attr2,name=[month],type=[2],value=[3]
+    attr2,name=[day],type=[2],value=[23]
+    attr2,name=[hour],type=[2],value=[14]
+    attr2,name=[minute],type=[2],value=[38]
+    attr2,name=[second],type=[2],value=[54]
+  node,name=[zTXt],type=[1],value=[null],childcnt=[1],attrcnt=[0]
+    node,name=[zTXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[3]
+      attr2,name=[keyword],type=[2],value=[ShadowNFT:EclipseJavaProject]
+      attr2,name=[compressionMethod],type=[2],value=[deflate]
+      attr1,name=[text],type=[2],size=123946
+ImaginalDescriptor ===> Listing Image Metadata,Done
+```
 
 **MatrixPrinter output image from test module ShadowNFTTrustButVerify.java**<br>
 Shows implementation of all matrix characters and various applied font effects.<br>
