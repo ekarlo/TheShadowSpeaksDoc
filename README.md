@@ -1,6 +1,6 @@
 # The Shadow Speaks Project<br>Vietnam War Draft Lottery Analysis (DRAFT)
 
-March 20, 2025<br>
+March 27, 2025<br>
 Commerce City, Colorado<br>
 
 My name is Edward Karlo, several years retired from a 50 year career in IT.
@@ -75,15 +75,12 @@ Top right (left) is William Hinkle founder of Keyvest, with an innovative Trust 
 Center right are the B5500 tape drives with the line printer in background.
 
 (I was given a few shares of SSC stock due to a wage and price freeze along with Nixon closing of the gold window due to the
-costs of the Vietnam war. Sold decades later to finance an Internet adventure for $248.)<br>
+costs of the Vietnam war. Sold decades later to finance an Internet adventure for $248.00.)<br>
 ![DSC01477-600.jpeg](img/DSC01477-600.jpeg)<br>
 <br>
 **Closeup**<br>
-Totally posed. Every one of these gentlemen were skilled programmer / analysts and lived in cubicles or offices and I
-tended to the machine.
-
-Bottom right picture of the console just showed input commands and MCP (Master Control Program) output
-and nobody did that.
+Totally posed. Every one of the gentlemen standing around the console were skilled programmer / analysts and lived in cubicles or offices and I
+tended to the machine. The console just showed input commands and MCP (Master Control Program) output and nobody did that.
 
 Curtained window in back opened into the Conference room. They would open the curtains to show off the
 machine to clients. Plus ça change, plus c'est la même chose.
@@ -101,7 +98,7 @@ to control vertical tabbing and 132 separate hammers - one for each column. Top 
 printer was a heavily sound padded lid and an illuminated window showing the action.
 Paper exited the back to a mechanical stacker. With the lid up it let out an earsplitting banshee scream.
 
-Fellow shown was a very innovative PA that owned a filling station and garage in a former life.<br>
+Not posed. Fellow shown was a very innovative PA that owned a filling station and garage in a former life.<br>
 ![DSC01479-600.jpeg](img/DSC01479-600.jpeg)<br>
 <br>
 <br>
@@ -182,7 +179,7 @@ Manual (9” x 12” for size reference). Stack of used ribbons.<br>
 <br>
 <br>
 ### Current NFT - "Vietnam War Draft Lottery 2022" [2025]
-**"Vietnam War Draft Lottery 2022" [2025]**<br>
+**Development of the "Vietnam War Draft Lottery 2022" [2025] NFT**<br>
 In October 2022 I suddenly decided to recreate the 1990 displays in the form af an NFT PNG image.
 
 The first step was the recovery of the code and files from the Amiga format floppies which presented a problem. Amiga floppies
@@ -249,45 +246,46 @@ Then package com/ekarlo/shadow was developed the create the “TheShadowSpeaks
 Pure Java (no 3rd party code) Eclipse IDE based project able to write a PNG file with rotation and scale as well as adding custom metadata to the image.<br>
 <br>
 
-**Structure of the Eclipse IDE Java project**
+**Structure of the Eclipse IDE Java project as of March 27, 2025**
 
 ```
-> tree TheShadowSpeaksNFT
-TheShadowSpeaksNFT/
+tree TheShadowSpeaksNFT/
 ├── .classpath
 ├── .gitignore
 ├── .project
 ├── .settings
-│   ├── org.eclipse.core.resources.prefs
-│   └── org.eclipse.jdt.core.prefs
+│   ├── org.eclipse.core.resources.prefs
+│   └── org.eclipse.jdt.core.prefs
 ├── doc
-│   ├── Shadow-Final-1
-│   │   ├── Shadow-Final-1.list
-│   │   ├── W1
-│   │   │   ├── shadow1.c
-│   │   │   ├── shadown.h
-│   │   │   └── test1.c
-│   │   └── W2
-│   │       └── shadow1.rpt
-│   ├── launch.conf.d
-│   │   ├── Imaginal.prototype
-│   │   ├── Imaginal_extract-image-metadata_tEXtEntry.launch
-│   │   ├── Imaginal_extract-image-metadata_tIME.launch
-│   │   ├── Imaginal_extract-image-metadata_zTXtEntry.launch
-│   │   ├── Imaginal_list-image-metadata.launch
-│   │   ├── MartixPrinter.prototype
-│   │   ├── MatrixPrinterTest_test-all.launch
-│   │   ├── TheShadowSpeaks2022NFT_Shadow70.launch
-│   │   ├── TheShadowSpeaks2022NFT_Shadow71.launch
-│   │   ├── TheShadowSpeaks2022NFT_Shadow72.launch
-│   │   ├── TheShadowSpeaks2022NFT_Shadow73.launch
-│   │   ├── TheShadowSpeaks2022NFT_ShadowBadArgs.launch
-│   │   ├── TheShadowSpeaks2022NFT_ShadowNFT.launch
-│   │   └── TheShadowSpeaksNFT.prototype
-│   └── test
-└── src/ ...
+│   └── Shadow-Final-1
+│       ├── Shadow-Final-1.list
+│       ├── W1
+│       │   ├── shadow1.c
+│       │   ├── shadown.h
+│       │   └── test1.c
+│       └── W2
+│           └── shadow1.rpt
+├── launch.conf.d
+│   ├── Imaginal.prototype
+│   ├── Imaginal_extract-image-metadata_tEXtEntry.launch
+│   ├── Imaginal_extract-image-metadata_tIME.launch
+│   ├── Imaginal_extract-image-metadata_zTXtEntry.launch
+│   ├── Imaginal_list-image-metadata.launch
+│   ├── MartixPrinter.prototype
+│   ├── MatrixPrinterTest_icon-1.launch
+│   ├── MatrixPrinterTest_icon-2.launch
+│   ├── MatrixPrinterTest_test-all.launch
+│   ├── TheShadowSpeaks2022NFT_Shadow70.launch
+│   ├── TheShadowSpeaks2022NFT_Shadow71.launch
+│   ├── TheShadowSpeaks2022NFT_Shadow72.launch
+│   ├── TheShadowSpeaks2022NFT_Shadow73.launch
+│   ├── TheShadowSpeaks2022NFT_ShadowBadArgs.launch
+│   ├── TheShadowSpeaks2022NFT_ShadowNFT.launch
+│   └── TheShadowSpeaksNFT.prototype
+├── src/...
+└── test/
 
-8 directories, 24 files
+8 directories, 26 files
 ```
 <br>
 
@@ -296,102 +294,102 @@ TheShadowSpeaksNFT/
 ```
 > tree TheShadowSpeaksNFT/src
 TheShadowSpeaksNFT/src
-└── com
-    ├── ekarlo
-    │   └── shadow
-    │       ├── ShadowNFTDescriptor.java                          Run time structure
-    │       ├── ShadowNFTNumbers.java                             Draft lottery numbers for 1970-1973
-    │       ├── ShadowNFTSpeaker.java                             Runs ShadowMap
-    │       ├── ShadowNFTTrustButVerify.java                      Testing module
-    │       ├── ShadowNFTWeGoAll.java                             Generates multi-year PNG NFT
-    │       ├── ShadowNFTWhereWeGoOne.java                        Generates single year text for physical printers
-    │       └── TheShadowSpeaks2022NFT.java                       Main entry point
-    └── ysystems
-        └── lib
-            ├── image
-            │   ├── ImaginalDescriptor.java
-            │   ├── ImaginalManager.java                          PNG writer / reader
-            │   └── ImaginalRun.java
-            ├── mapper
-            │   ├── ShadowMap.java                                PrinterMap implementation in Java
-            │   └── ShadowMapCodes.java                           PrinterMap display type codes
-            ├── printer
-            │   └── matrixprinter
-            │       ├── MatrixPrinter.java                        Matrix Printer Simulator
-            │       ├── MatrixPrinterDescriptor.java
-            │       ├── StateDIPs.java                            DIP switches
-            │       ├── op
-            │       │   ├── Op.java
-            │       │   ├── OpDescriptor.java
-            │       │   ├── cc                                    Implement Printer Control Codes
-            │       │   │   ├── Op_CC_CarriageReturn.java
-            │       │   │   ├── Op_CC_CompressedModeOff.java
-            │       │   │   ├── Op_CC_CompressedModeOn.java
-            │       │   │   ├── Op_CC_Escape.java
-            │       │   │   ├── Op_CC_ExpandedModeLinOff.java
-            │       │   │   ├── Op_CC_ExpandedModeLinOn.java
-            │       │   │   ├── Op_CC_LineFeed.java
-            │       │   │   ├── Op_CE_ActivateCharSetRAM.java
-            │       │   │   ├── Op_CE_Color.java
-            │       │   │   ├── Op_CE_DefineUserChar.java
-            │       │   │   ├── Op_CE_ElitePitchModeOff.java
-            │       │   │   ├── Op_CE_ElitePitchModeOn.java
-            │       │   │   ├── Op_CE_EmphasizedModeOff.java
-            │       │   │   ├── Op_CE_EmphasizedModeOn.java
-            │       │   │   ├── Op_CE_ExpandedMode.java
-            │       │   │   ├── Op_CE_HighOrderBitIgnore.java
-            │       │   │   ├── Op_CE_HighOrderBitOff.java
-            │       │   │   ├── Op_CE_HighOrderBitOn.java
-            │       │   │   ├── Op_CE_LetterQuality.java
-            │       │   │   ├── Op_CE_ROMtoRAM.java
-            │       │   │   ├── Op_CE_Reset.java
-            │       │   │   ├── Op_CE_Unidirectional.java
-            │       │   │   └── Op_CE_VMI.java
-            │       │   ├── ch                                   Implement Characters
-            │       │   │   ├── CharDef.java
-            │       │   │   ├── CharDefManager.java
-            │       │   │   ├── Op_CH_Char.java
-            │       │   │   └── StateGlyph.java
-            │       │   └── ex
-            │       │       └── Op_EX_Unknown.java
-            │       ├── ops                                      Command Code Parser and Executor
-            │       │   ├── OpSyllable.java
-            │       │   ├── OpSyllableList.java
-            │       │   ├── OpVector.java
-            │       │   └── OpVectorManager.java
-            │       ├── render                                   Renderers
-            │       │   ├── AbstractRender.java
-            │       │   ├── AbstractRenderGfx.java
-            │       │   ├── RenderFile.java
-            │       │   ├── RenderGfx.java
-            │       │   ├── RenderGfxZero.java
-            │       │   ├── RenderTest.java
-            │       │   ├── RenderZero.java
-            │       │   ├── StateBytes.java
-            │       │   ├── StateColor.java
-            │       │   ├── StateGfx.java
-            │       │   ├── StatePage.java
-            │       │   └── StateRender.java
-            │       └── test
-            │           ├── MPTestGroupA.java
-            │           └── MatrixPrinterTest.java
-            └── util                                             General Purpose Utilities
-                ├── AbstractArgumentDescriptor.java
-                ├── Bitz.java
-                ├── DoubleRW.java
-                ├── FUtility.java
-                ├── IntegerRW.java
-                ├── Q.java                                       Byte queue and streame
-                ├── SPO.java                                     Console run time output
-                └── Zipper.java
+└── src
+    └── com
+        ├── ekarlo
+        │   └── shadow
+        │       ├── ShadowNFTDescriptor.java                          Run time structure
+        │       ├── ShadowNFTNumbers.java                             Draft lottery numbers for 1970-1973
+        │       ├── ShadowNFTSpeaker.java                             Runs ShadowMap
+        │       ├── ShadowNFTWeGoAll.java                             Generates multi-year PNG NFT
+        │       ├── ShadowNFTWhereWeGoOne.java                        Generates single year text for physical printers
+        │       └── TheShadowSpeaks2022NFT.java                       Main entry point
+        └── ysystems
+            └── lib
+                ├── image
+                │   ├── ImaginalDescriptor.java
+                │   ├── ImaginalManager.java                          PNG writer / reader
+                │   └── ImaginalRun.java
+                ├── mapper
+                │   ├── ShadowMap.java                                PrinterMap implementation in Java
+                │   └── ShadowMapCodes.java                           PrinterMap display type codes
+                ├── printer
+                │   └── matrixprinter
+                │       ├── MatrixPrinter.java                        Matrix Printer Simulator
+                │       ├── MatrixPrinterDescriptor.java
+                │       ├── StateDIPs.java                            DIP switches
+                │       ├── op
+                │       │   ├── Op.java
+                │       │   ├── OpDescriptor.java
+                │       │   ├── cc                                    Implement Printer Control Codes
+                │       │   │   ├── Op_CC_CarriageReturn.java
+                │       │   │   ├── Op_CC_CompressedModeOff.java
+                │       │   │   ├── Op_CC_CompressedModeOn.java
+                │       │   │   ├── Op_CC_Escape.java
+                │       │   │   ├── Op_CC_ExpandedModeLinOff.java
+                │       │   │   ├── Op_CC_ExpandedModeLinOn.java
+                │       │   │   ├── Op_CC_LineFeed.java
+                │       │   │   ├── Op_CE_ActivateCharSetRAM.java
+                │       │   │   ├── Op_CE_Color.java
+                │       │   │   ├── Op_CE_DefineUserChar.java
+                │       │   │   ├── Op_CE_ElitePitchModeOff.java
+                │       │   │   ├── Op_CE_ElitePitchModeOn.java
+                │       │   │   ├── Op_CE_EmphasizedModeOff.java
+                │       │   │   ├── Op_CE_EmphasizedModeOn.java
+                │       │   │   ├── Op_CE_ExpandedMode.java
+                │       │   │   ├── Op_CE_HighOrderBitIgnore.java
+                │       │   │   ├── Op_CE_HighOrderBitOff.java
+                │       │   │   ├── Op_CE_HighOrderBitOn.java
+                │       │   │   ├── Op_CE_LetterQuality.java
+                │       │   │   ├── Op_CE_ROMtoRAM.java
+                │       │   │   ├── Op_CE_Reset.java
+                │       │   │   ├── Op_CE_Unidirectional.java
+                │       │   │   └── Op_CE_VMI.java
+                │       │   ├── ch                                   Implement Characters
+                │       │   │   ├── CharDef.java
+                │       │   │   ├── CharDefManager.java
+                │       │   │   ├── Op_CH_Char.java
+                │       │   │   └── StateGlyph.java
+                │       │   └── ex
+                │       │       └── Op_EX_Unknown.java
+                │       ├── ops                                      Command Code Parser and Executor
+                │       │   ├── OpSyllable.java
+                │       │   ├── OpSyllableList.java
+                │       │   ├── OpVector.java
+                │       │   └── OpVectorManager.java
+                │       ├── render                                   Renderers
+                │       │   ├── AbstractRender.java
+                │       │   ├── AbstractRenderGfx.java
+                │       │   ├── RenderFile.java
+                │       │   ├── RenderGfx.java
+                │       │   ├── RenderGfxZero.java
+                │       │   ├── RenderTest.java
+                │       │   ├── RenderZero.java
+                │       │   ├── StateBytes.java
+                │       │   ├── StateColor.java
+                │       │   ├── StateGfx.java
+                │       │   ├── StatePage.java
+                │       │   └── StateRender.java
+                │       └── test
+                │           ├── MPIconGroupA.java
+                │           ├── MPTestGroupA.java
+                │           └── MatrixPrinterTest.java
+                └── util                                             General Purpose Utilities
+                    ├── AbstractArgumentDescriptor.java
+                    ├── Bitz.java
+                    ├── DoubleRW.java
+                    ├── FUtility.java
+                    ├── IntegerRW.java
+                    ├── Q.java                                       Byte queue and streamer
+                    ├── SPO.java                                     Console run time output
+                    └── Zipper.java
 
-17 directories, 70 files
-
-Word count: 13,051 lines, 37,814 words, 413,056 characters
+18 directories, 74 files
+Word count: 13,870 lines  39,802 words, 440,004 characters total
 ```
 <br>
 
-**PNG Image Metadata**
+**PNG Image Metadata**<br>
 The PNG image file format is described in the Wikipedia article:<br>
 [https://en.wikipedia.org/wiki/PNG](https://en.wikipedia.org/wiki/PNG)<br>
 
