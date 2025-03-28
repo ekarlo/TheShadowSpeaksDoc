@@ -5,14 +5,27 @@ Commerce City, Colorado<br>
 
 My name is Edward Karlo, several years retired from a 50 year career in IT.
 
-I have created a new entry for the NFT market. I believe it is most interesting and significant and have written this ‘Prospectus’ to
+This document describes an NFT, a PNG image file, a statement and an art statement with the title:<br>
+
+**"Vietnam War Draft Lottery Analysis 2022"**
+
+The NFT image is hereinafter referred to as **"ShadowNFT"**.
+
+This started as an email first sent in August 2023. The subject was:<br>
+*Prospectus v1.3 New A2B-NFT - "TheShadowSpeaks2022NFT" [2022], "Shadow[70..73]" [1990], "The Shadow Speaks" [1972]*<br>
+
+The email intro stated:<br>
+>I have created a new entry for the NFT market. I believe it is most interesting and significant and have written this ‘Prospectus’ to
 describe a complex and abstract story. I call it an A2B-NFT (Art / Asset Backed-NFT) as it is an NFT with historical physical art,
 documents and computer hard and soft wares. Perhaps there are already names for such as this.
-This is a draft ‘Prospectus’ for eventual minting and marketing of the A2B-NFT.
-<br>
+This is a draft ‘Prospectus’ for eventual minting and marketing of the A2B-NFT.<br>
+
+The email describes initial historical versions in 1972 then another in 1990. Work on the current NFT version began in December 2022 and continues to this date.
+
+**The time for minting and marketing is now here. Details follow.**<br>
 <br>
 
-### Historical - "TheShadow Speaks" [1972]
+### Historical - "The Shadow Speaks" [1972]
 **"The Shadow Speaks" [1972] Overview**<br>
 In high school (66-68) my favorite classes were science, math and especially radio and electronics. During this time I also attended
 the Emily Griffith Opportunity School in Downtown Denver taking courses in electricity, general electronics, computer circuits and
@@ -24,8 +37,9 @@ on their Burroughs B5500 mainframe. A seminal moment in my career and good for t
 [https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College](https://en.wikipedia.org/wiki/Emily_Griffith_Technical_College)<br>
 [https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500](https://en.wikipedia.org/wiki/Burroughs_Large_Systems#B5500)<br>
 <br>
-SSC mainly did computer modeling and accounting services for oil companies. Very scientific. Place was loaded with PhDs.
-Physicists, math wizards, programmers and I was a lowly computer operator slaving away in the engine room. It was glorious.
+SSC mainly did computer modeling and accounting services for oil companies. Very scientific.
+They also offered general programming and processing services as a "service bureau". Place was loaded with PhDs,
+physicists, math wizards, programmers and I was a lowly computer operator slaving away in the engine room. It was glorious.
 
 A month in, the job is going great and the boss asks my draft status. "1A". The Vietnam war was on and a draft lottery was
 instituted for men born 1950-1953 for the 1970-1973 draft. For fairness and order. I was in the 1971 lottery and had a high number
@@ -99,6 +113,7 @@ printer was a heavily sound padded lid and an illuminated window showing the act
 Paper exited the back to a mechanical stacker. With the lid up it let out an earsplitting banshee scream.
 
 Not posed. Fellow shown was a very innovative PA that owned a filling station and garage in a former life.<br>
+
 ![DSC01479-600.jpeg](img/DSC01479-600.jpeg)<br>
 <br>
 <br>
@@ -178,9 +193,9 @@ Manual (9” x 12” for size reference). Stack of used ribbons.<br>
 ![DSC01437-600.jpeg](img/DSC01437-600.jpeg)<br>
 <br>
 <br>
-### Current NFT - "Vietnam War Draft Lottery 2022" [2025]
+### Current NFT Entry - "Vietnam War Draft Lottery 2022" [2025]
 **Development of the "Vietnam War Draft Lottery 2022" [2025] NFT**<br>
-In October 2022 I suddenly decided to recreate the 1990 displays in the form af an NFT PNG image.
+In October 2022 I suddenly decided to recreate the 1990 displays in the form af an NFT PNG image.<br>
 
 The first step was the recovery of the code and files from the Amiga format floppies which presented a problem. Amiga floppies
 cannot be read on a PC due to controller limitations. Resurrecting a 30 yo old Amiga, monitor, external floppy drive and software
@@ -191,7 +206,7 @@ Greaseweazle Floppy adapter.
 ![Greaseweazle_eBay-600.jpeg](img/Greaseweazle_eBay-600.jpeg)<br>
 <br>
 **Apparatus used for floppy recovery**<br>
-*Greaseweazle* in green 3D printed case - floppy drive to USB interface.<br>
+*Greaseweazle* in green 3D printed case (floppy drive to USB interface).<br>
 Floppy cable in back and USB cable on right front to PC and special software.<br>
 Power supply for floppy drive power.<br>
 Floppy drive, 1 of 2 purchased as being “New in original shrink wrapped box”.<br>
@@ -235,13 +250,13 @@ fs:             34   17Ki         17408   3.28%
 **Development of Java Application**<br>
 Once the old C code was recovered I could begin development of a Java application using the Eclipse IDE (Integrated Development Environment).<br>
 
-Eclipse project name: TheShadowSpeaksNFT.<br>
+Eclipse Java project name: TheShadowSpeaksNFT. Project is managed in a local Git repository.<br>
 
-I had the Shadow70 image roughly displayed on the monitor within a week using a simple line-by-line conversion of the shadow1.c code to Java using package com/ysystems/lib/util/mapper.<br>
+I had the Shadow70 image roughly displayed on the monitor within a week using a simple line-by-line conversion of the shadow1.c code to Java using package com/ysystems/lib/mapper.<br>
 
-I then wrote package com/ysystems/lib/util/printer/matrixprinter to simulate the Epson JX-80 and Brother Twinriter 5 printers and process the printer command codes as emitted by the C code, and beyond.<br>
+I then wrote package com/ysystems/lib/printer/matrixprinter to simulate the Epson JX-80 and Brother Twinriter 5 printers and process the printer command codes as emitted by the C code, and beyond.<br>
 
-Then package com/ekarlo/shadow was developed the create the “TheShadowSpeaks2022NFT” seen below.<br>
+Then package com/ekarlo/shadow was developed the create the NFT PNG image seen below.<br>
 
 Pure Java (no 3rd party code) Eclipse IDE based project able to write a PNG file with rotation and scale as well as adding custom metadata to the image.<br>
 <br>
@@ -396,7 +411,7 @@ The PNG image file format is described in the Wikipedia article:<br>
 The image consists of various “chunks” of metadata (image characteristics) and image data.<br>
 
 **"Ancillary chunks" section from Wikipedia article:**<br>
-Other image attributes that can be stored in PNG files include gamma values, background color, and textual metadatainformation. PNG also supports color management through the inclusion of ICC color profiles.\{21\]<br>
+Other image attributes that can be stored in PNG files include gamma values, background color, and textual metadata information. PNG also supports color management through the inclusion of ICC color profiles.\{21\]<br>
 - bKGD gives the default background color. It is intended for use when there is no better choice available, such as in standalone image viewers (but not web browsers; see below for more details).<br>
 - cHRM gives the chromaticity coordinates of the display primaries and white point.<br>
 - dSIG is for storing digital signatures.\{22\]<br>
@@ -471,28 +486,28 @@ node,name=[javax_imageio_png_1.0],type=[1],value=[null],childcnt=[4],attrcnt=[0]
 ImaginalDescriptor ===> Listing Image Metadata,Done
 ```
 
-**MatrixPrinter output image from test module ShadowNFTTrustButVerify.java**<br>
+**MatrixPrinter output image from test module MatrixPrinterTest.java**<br>
 Shows implementation of all matrix characters and various applied font effects.<br>
 Letter Quality uses system font rather than built in matrix font.<br>
 ![tst-ShadowNFT-b-600.jpeg](img/tst-ShadowNFT-b-600.jpeg)<br>
 <br>
-**TheSpadowSpeaks2022NFT.png NFT image**<br>
-Photo of computer monitor showing TheSpadowSpeaks2022NFT.png in dark room using Windows Photo Viewer.<br>
+**ShadowNFT PNG image**<br>
+Photo of computer monitor showing **ShadowNFT** in dark room using Windows Photo Viewer.<br>
 Note blue power led in lower right for scale. Algorithm was changed because of issues converting from an analog printer CMYK to digital RGB (hard).<br>
 Note that the display of Shadow70 (top) was changed to show the higher numbers as dark areas (safe) to light areas (subject to draft).<br>
 The area in the lower right appears to show less dark areas supporting the claim that the later months were non random due to improperly mixed capsules.<br>
 ![DSC01456-600.jpeg](img/DSC01456-600.jpeg)<br>
 <br>
-**Photo of computer monitor showing TheSpadowSpeaks2022NFT.png in low light using Windows Photo Viewer**<br>
+**Photo of computer monitor showing ShadowNFT in low light using Windows Photo Viewer**<br>
 ![DSC01457-600.jpeg](img/DSC01457-600.jpeg)<br>
 <br>
 **Photo of computer monitor showing Eclipse IDE with TheShadowSpeaks2022NFT.java in left editor pane and shadow1.c in right pane**<br>
 ![DSC01461-600.jpeg](img/DSC01461-600.jpeg)<br>
 <br>
-**Photo of computer monitor showing Eclipse IDE superimposed with TheShadowSpeaks2022NFT.png using the Mozilla browser**<br>
+**Photo of computer monitor showing Eclipse IDE superimposed with ShadowNFT using the Mozilla browser**<br>
 ![DSC01463-600.jpeg](img/DSC01463-600.jpeg)<br>
 <br>
-**Shadow70 (top) with TheShadowSpeaks2022NFT.png printed on 13” x 19” and 8.5” x 11 paper**<br>
+**Shadow70 (top) with ShadowNFT printed on 13” x 19” and 8.5” x 11 paper**<br>
 ![DSC01466-600.jpeg](img/DSC01466-600.jpeg)<br>
 <br>
 **Summary**<br>
@@ -502,8 +517,8 @@ Significant and interesting because …<br>
 - Historical and rare generative art from 50+ years ago and 30+ years ago.
 - Historical reference to past major events - the Vietnam war and the draft lottery.
 - Current chatter about current wars (Ukraine et al) and need for resumption of draft.
-- MatrixPrinter code might be a good open source project or associated / included with the NFT in some way. Retro rules!
-Offering includes:<br>
+- MatrixPrinter code might be an interesting open source project or associated / included with the NFT in some way.<br>
+<br>
 <br>
 **ToDo**
 <br>
