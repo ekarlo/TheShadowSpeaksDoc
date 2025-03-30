@@ -1,6 +1,6 @@
-# The Shadow Speaks Project<br>Vietnam War Draft Lottery Analysis (DRAFT)
+# The Shadow Speaks Study<br>Vietnam War Draft Lottery Analysis
 
-March 27, 2025<br>
+March 29, 2025<br>
 Commerce City, Colorado<br>
 
 My name is Edward Karlo, several years retired from a 50 year career in IT.
@@ -20,7 +20,7 @@ describe a complex and abstract story. I call it an A2B-NFT (Art / Asset Backed-
 documents and computer hard and soft wares. Perhaps there are already names for such as this.
 This is a draft ‘Prospectus’ for eventual minting and marketing of the A2B-NFT.<br>
 
-The email describes initial historical versions in 1972 then another in 1990. Work on the current NFT version began in December 2022 and continues to this date.
+The email describes initial historical versions in 1972 then another in 1990. Work on the current NFT version began in December 2022 and continues to this day.
 
 **The time for minting and marketing is now here. Details follow.**<br>
 <br>
@@ -400,7 +400,7 @@ TheShadowSpeaksNFT/src
                     └── Zipper.java
 
 18 directories, 74 files
-Word count: 13,870 lines  39,802 words, 440,004 characters total
+Word count: 13,876 lines  39,817 words, 440,234 characters total
 ```
 <br>
 
@@ -443,7 +443,8 @@ A number of metadata chunks are potentially useful in a PNG NFT image and some a
 - tIME - values same as UTCTimeNow<br>
 - zTXt - key-value pair - entire zipped Eclipse Java Project<br>
 
-*Note: The zTXt chunk is a novel feature in that the NFT image contains the code needed to create the image and extract the metadata.*
+*Note: The zTXt chunk is a novel feature in that the NFT image contains the code needed to create the image and extract the metadata.*<br>
+<br>
 
 **Sample log output below (created during image generation)**
 
@@ -513,14 +514,16 @@ The area in the lower right appears to show less dark areas supporting the claim
 **Summary**<br>
 Strange, surreal, abstract, exotic, Dada-esque even but with an underlying heart of cold technocratic knife edged madness and
 macabre horror.<br>
+
 Significant and interesting because …<br>
 - Historical and rare generative art from 50+ years ago and 30+ years ago.
-- Historical reference to past major events - the Vietnam war and the draft lottery.
+- Historical reference to past major events - the Vietnam War and the draft lottery.
 - Current chatter about current wars (Ukraine et al) and need for resumption of draft.
-- MatrixPrinter code might be an interesting open source project or associated / included with the NFT in some way.<br>
+- Insight into the draft process.
+- MatrixPrinter code might be an interesting open source project useful for other generative digital art.<br>
 <br>
 <br>
-**ToDo**
+**Plan is to mint ShadowNFT on OpenSea.io in late March 2025 or April 2025.**
 <br>
 <br>
 
