@@ -5,4 +5,6 @@ The study was initiated after reports of the 1970 draft lottery not being random
 
 This version is a PNG NFT generated with a custom Java application called **MatrixPrinter**.
 
-See link.
+**See** [https://github.com/ekarlo/TheShadowSpeaksDoc](https://github.com/ekarlo/TheShadowSpeaksDoc)<br>
+
+for a detailed description and history of the study.

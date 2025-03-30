@@ -449,11 +449,11 @@ A number of metadata chunks are potentially useful in a PNG NFT image and some a
 **Sample log output below (created during image generation)**
 
 ```
-ImaginalDescriptor ===> Listing Image Metadata,InputFileNameRaw=[test/tst-ShadowNFT-1_10.png],filesize=[4011674]...
+ImaginalDescriptor ===> Listing Image Metadata,InputFileNameRaw=[test/ShadowNFT-a.png],filesize=[10179573]...
 node,name=[javax_imageio_png_1.0],type=[1],value=[null],childcnt=[4],attrcnt=[0]
   node,name=[IHDR],type=[1],value=[null],childcnt=[0],attrcnt=[7]
-    attr3,name=[width],type=[2],value=[6318]
-    attr3,name=[height],type=[2],value=[11448]
+    attr3,name=[width],type=[2],value=[12636]
+    attr3,name=[height],type=[2],value=[22896]
     attr3,name=[bitDepth],type=[2],value=[8]
     attr3,name=[colorType],type=[2],value=[RGBAlpha]
     attr3,name=[compressionMethod],type=[2],value=[deflate]
@@ -462,28 +462,28 @@ node,name=[javax_imageio_png_1.0],type=[1],value=[null],childcnt=[4],attrcnt=[0]
   node,name=[tEXt],type=[1],value=[null],childcnt=[4],attrcnt=[0]
     node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
       attr2,name=[keyword],type=[2],value=[ShadowNFT:LaunchParms]
-      attr2,name=[value],type=[2],value=[action=ShadowNFT,rotate=(true,-1.570796 rad,-90.000000 deg,[pi(-1/2)]),scale=(true,X 0.100000,Y 0.100000,[1/10,1/10]),OutputFileName=[test/tst-ShadowNFT-1_10.png]]
+      attr2,name=[value],type=[2],value=[action=ShadowNFT,rotate=(true,-1.570796 rad,-90.000000 deg,[pi(-1/2)]),scale=(true,X 0.200000,Y 0.200000,[1/5,1/5]),OutputFileName=[test/ShadowNFT-a.png]]
     node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
       attr2,name=[keyword],type=[2],value=[ShadowNFT:Artist]
       attr2,name=[value],type=[2],value=[ekarlo]
     node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
       attr2,name=[keyword],type=[2],value=[ShadowNFT:UUID]
-      attr2,name=[value],type=[2],value=[9ebce15c-237d-4631-8124-8bfd995b9b4f]
+      attr2,name=[value],type=[2],value=[7e4235ce-417d-40be-bcff-608ed705cc68]
     node,name=[tEXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[2]
       attr2,name=[keyword],type=[2],value=[ShadowNFT:UTCTimeNow]
-      attr2,name=[value],type=[2],value=[2025-03-23T14:38:54.795521600Z]
+      attr2,name=[value],type=[2],value=[2025-03-29T20:50:45.275948500Z]
   node,name=[tIME],type=[1],value=[null],childcnt=[0],attrcnt=[6]
     attr2,name=[year],type=[2],value=[2025]
     attr2,name=[month],type=[2],value=[3]
-    attr2,name=[day],type=[2],value=[23]
-    attr2,name=[hour],type=[2],value=[14]
-    attr2,name=[minute],type=[2],value=[38]
-    attr2,name=[second],type=[2],value=[54]
+    attr2,name=[day],type=[2],value=[29]
+    attr2,name=[hour],type=[2],value=[20]
+    attr2,name=[minute],type=[2],value=[50]
+    attr2,name=[second],type=[2],value=[45]
   node,name=[zTXt],type=[1],value=[null],childcnt=[1],attrcnt=[0]
     node,name=[zTXtEntry],type=[1],value=[null],childcnt=[0],attrcnt=[3]
       attr2,name=[keyword],type=[2],value=[ShadowNFT:EclipseJavaProject]
       attr2,name=[compressionMethod],type=[2],value=[deflate]
-      attr1,name=[text],type=[2],size=123946
+      attr1,name=[text],type=[2],size=137467
 ImaginalDescriptor ===> Listing Image Metadata,Done
 ```
 
