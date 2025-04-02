@@ -20,9 +20,7 @@ describe a complex and abstract story. I call it an A2B-NFT (Art / Asset Backed-
 documents and computer hard and soft wares. Perhaps there are already names for such as this.
 This is a draft ‘Prospectus’ for eventual minting and marketing of the A2B-NFT.<br>
 
-The email describes initial historical versions in 1972 then another in 1990. Work on the current NFT version began in December 2022 and continues to this day.
-
-**The time for minting and marketing is now here. Details follow.**<br>
+The email describes initial historical versions in 1972 then another in 1990. Work on the current NFT version began in December 2022 and continues to this day.<br>
 <br>
 
 ### Historical - "The Shadow Speaks" [1972]
@@ -125,7 +123,8 @@ Group on Computer Graphics and Interactive Techniques) held a computer art show 
 Denver Rocky Mountain Chapter of the ACM for three years around this time as well as a member of SIGGRAPH.)
 The display consisted of The Shadow Speaks, Shadow[70..73] and a descriptive placard.
 
-**Announcement of Second Annual Computer Graphics Art Show. First annual announcement on right**<br>
+**Announcement of Second Annual Computer Graphics Art Show (left)**<br>
+First annual announcement on right.<br>
 ![DSC01454-600.jpeg](img/DSC01454-600.jpeg)<br>
 <br>
 **Shadow70 and documentation booklet**<br>
@@ -523,7 +522,7 @@ Significant and interesting because …<br>
 - MatrixPrinter code might be an interesting open source project useful for other generative digital art.<br>
 <br>
 <br>
-**Plan is to mint ShadowNFT on OpenSea.io in late March 2025 or April 2025.**
+**ShadowNFT minted on OpenSea.io March 30, 2025 3:10 pm MDT.**
 <br>
 <br>
 
