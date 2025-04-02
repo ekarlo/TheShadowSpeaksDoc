@@ -521,8 +521,8 @@ Significant and interesting because …<br>
 - Insight into the draft process.
 - MatrixPrinter code might be an interesting open source project useful for other generative digital art.<br>
 <br>
-<br>
-**ShadowNFT minted on OpenSea.io March 30, 2025 3:10 pm MDT.**
+
+**ShadowNFT minted on OpenSea.io March 30, 2025 at 3:10 pm MDT.**
 <br>
 <br>
 
